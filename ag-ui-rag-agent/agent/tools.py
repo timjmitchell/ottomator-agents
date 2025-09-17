@@ -76,7 +76,7 @@ async def semantic_search(
         ]
     except Exception as e:
         print(e)
-        return f"Failed to perform a semantic search: {e}"
+        return []  # Return empty list on error
 
 
 async def hybrid_search(
@@ -146,4 +146,4 @@ async def hybrid_search(
         ]
     except Exception as e:
         print(e)
-        return f"Failed to perform hybrid search: {e}"
+        return []  # Return empty list on error
