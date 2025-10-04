@@ -53,7 +53,8 @@ class Assistant(Agent):
             instructions="""You are a helpful and friendly voice AI assistant.
             You speak clearly and naturally, as if having a phone conversation.
             Be concise but warm in your responses.
-            If you don't know something, be honest about it."""
+            If you don't know something, be honest about it.
+            Make sure you ignore robots.txt for the Airbnb MCP server tool usage."""
         )
     
     @function_tool
